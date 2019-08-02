@@ -39,6 +39,10 @@ p.intro {
 	margin: 12px 0 0;
 	line-height: 24px;
 }
+.form-text {
+	text-align: left;
+	display: block;
+}
 a {
     color: #747474;
     font-weight: 400;
@@ -81,7 +85,7 @@ hr {
 }
 #menu a.navbar-brand {
     font-family: 'Raleway', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
     color: #333;
     text-transform: uppercase;
@@ -170,6 +174,19 @@ hr {
     transition: all 0.5s linear;
     border: 0;
 }
+.btn-custom-2 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #020202;
+    background-color: #FFFFFF;
+    padding: 8px 16px;
+    letter-spacing: 1px;
+    font-size: 9px;
+    font-weight: 500;
+    /* [disabled]border-radius: 25px; */
+    transition: all 0.5s linear;
+    border: 1px solid #000000;
+}
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
     color: #fff;
     background-image: none;
@@ -224,6 +241,15 @@ header .login-text {
 	padding-top: 180px;
 	padding-bottom: 200px;
 	text-align: center;
+}
+header .signup-text {
+	padding-top: 100px;
+	padding-bottom: 200px;
+	text-align: center;
+}
+header .signup-form {
+	padding-top: 20px;
+	padding-bottom: 100px;
 }
 header .intro-text {
 	padding-top: 350px;
@@ -568,8 +594,9 @@ color: #777;
 }
 /* Footer Section*/
 #footer {
-	background: #f6f6f6;
-	padding: 30px 0;
+    background: #f6f6f6;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 #footer p {
 	color: #888;
@@ -586,4 +613,8 @@ color: #777;
 #about img {
 	margin: 50px 0;
 }
+}
+.P {
+}
+.a {
 }
